@@ -5,8 +5,8 @@ import Slider from '@react-native-community/slider';
 
 export default function App() {
 
-  function generatePass() {
-    Alert.alert( "Titulo", "Mensagem")
+  function generatePass(){
+    alert('FUNFANDO')
   }
 
   return (
@@ -27,7 +27,7 @@ export default function App() {
         />
       </View>
 
-      <TouchableOpacity style={styles.button} OnPress={generatePass}>
+      <TouchableOpacity style={styles.button} onPress={generatePass}>
         <Text style={styles.buttonText}>Gerar Senha</Text>
       </TouchableOpacity>
 
